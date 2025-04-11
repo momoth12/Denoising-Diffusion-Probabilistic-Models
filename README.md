@@ -8,6 +8,11 @@ This repository provides a PyTorch implementation of **Denoising Diffusion Proba
 
 This implementation trains a DDPM model on the MNIST dataset, converted from CSV format to image format.
 
+
+
+<p align="center">
+  <img src="default/ddpm_samples.gif" alt="DDPM Sampling GIF" width="400"/>
+</p>
 ---
 
 ## 🔧 Quickstart
