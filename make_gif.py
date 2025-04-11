@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-def create_gif_from_samples(samples_dir, output_path, duration=200):
+def create_gif_from_samples(samples_dir, output_path, duration=2):
     """
     Creates a GIF from all sample images (x0_*.png) in the given directory.
 
