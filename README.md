@@ -104,7 +104,26 @@ pip install -r requirements.txt
 ├── utils/
 │   └── extract_mnist_images.py
 ├── data/
+```
+├── config/
+│   └── default.yaml
+├── dataset/
+│   └── mnist_dataset.py
+├── models/
+│   └── unet_base.py
+├── scheduler/
+│   └── linear_noise_scheduler.py
+├── utils/
+│   └── extract_mnist_images.py
+├── data/
 ├── default/
+│   └── ddpm_ckpt.pth (after training)
+│   └── samples/
+├── train_ddpm.py
+├── sample_ddpm.py
+├── README.md
+└── requirements.txt
+```
 │   └── ddpm_ckpt.pth (after training)
 │   └── samples/
 ├── README.md
