@@ -11,7 +11,7 @@ This implementation trains a DDPM model on the MNIST dataset, converted from CSV
 
 
 <p align="center">
-  <img src="default/ddpm_samples.gif" alt="DDPM Sampling GIF" width="400"/>
+  <img src="ddpm_samples.gif" alt="DDPM Sampling GIF" width="400"/>
 </p>
 ---
 
