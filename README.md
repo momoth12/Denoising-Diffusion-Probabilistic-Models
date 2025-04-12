@@ -59,7 +59,7 @@ This implementation trains a DDPM model on the MNIST dataset, converted from CSV
 Train the DDPM model using:
 
 ```bash
-python scripts/train_ddpm.py --config config/default.yaml
+python train_ddpm.py --config config/default.yaml
 ```
 
 This will save model checkpoints to `default/ddpm_ckpt.pth`.
@@ -71,7 +71,7 @@ This will save model checkpoints to `default/ddpm_ckpt.pth`.
 To generate samples using the trained model:
 
 ```bash
-python scripts/sample_ddpm.py --config config/default.yaml
+python sample_ddpm.py --config config/default.yaml
 ```
 
 Generated images will be saved in:
