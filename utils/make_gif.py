@@ -13,7 +13,7 @@ def make_gif_5s(samples_dir, output_gif_path, total_duration_sec=5):
     # Collect and sort image filenames by timestep index
     image_files = sorted(
         [f for f in os.listdir(samples_dir) if f.startswith("x0_") and f.endswith(".png")],
-        key=lambda x: int(x.split("_")[1].split(".")[0])
+        key=lambda x: int(x.split("_")[1].split(".")[0]),reverse=True
     )
 
     if not image_files:
@@ -38,4 +38,4 @@ def make_gif_5s(samples_dir, output_gif_path, total_duration_sec=5):
     print(f"GIF saved to {output_gif_path}")
 
 if __name__ == "__main__":
-    make_gif_5s("default/samples", "default/ddpm_samples_5s.gif")
+    make_gif_5s("default/samples", "ddpm_samples.gif")
